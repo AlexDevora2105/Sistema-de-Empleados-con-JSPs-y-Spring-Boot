@@ -17,8 +17,10 @@ CRUD completo con validaciones, búsqueda y lógica condicional, además incluye
 - Agregar edad del empleado
 - Valida emails, validar longitud de texto en el nombre, validar negativos de edad.
 - - `@Valid`, `@Email`, `@Min`, `@Size`
+- Agregar `SweetAlert2` al eliminar un elemento
 
 
+---
 
 ## 💾 Base de Datos MySql 
 ✅ La base de datos se crea de forma automatica si no existe en tu Gestor de Base de Datos. 
@@ -38,3 +40,4 @@ spring.jpa.hibernate.ddl-auto=update
 # Mostrar sentencias SQL
 spring.jpa.show-sql=true
 ```
+---
